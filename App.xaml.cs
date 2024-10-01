@@ -1,4 +1,6 @@
-﻿namespace MauiDemo
+﻿using MauiDemo.Pages;
+
+namespace MauiDemo
 {
     public partial class App : Application
     {
@@ -11,7 +13,9 @@
             navPage.BarBackground = Colors.Yellow;
             navPage.BarTextColor = Colors.Blue;
 
-            MainPage = new NavigationPage(new AbsoluteLayoutDemo());
+            //MainPage = new NavigationPage(new AbsoluteLayoutDemo());
+
+            MainPage = new NavigationPage(new MauiPresentationControls());
         }
     }
 }
