@@ -13,9 +13,9 @@ namespace MauiDemo
             navPage.BarBackground = Colors.Yellow;
             navPage.BarTextColor = Colors.Blue;
 
-            //MainPage = new NavigationPage(new AbsoluteLayoutDemo());
+            //MainPage = new NavigationPage(new MainPage());
 
-            MainPage = new NavigationPage(new MauiPresentationControls());
+            MainPage = new NavigationPage(new MauiCommandControls());
         }
     }
 }
