@@ -15,7 +15,7 @@ namespace MauiDemo
 
             //MainPage = new NavigationPage(new MainPage());
 
-            MainPage = new NavigationPage(new MauiCommandControls());
+            MainPage = new NavigationPage(new MauiSetValueControls());
         }
     }
 }
