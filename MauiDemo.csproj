@@ -58,6 +58,11 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\fb_icon.jpg" />
+	  <None Remove="Resources\Images\galaxy1.jpg" />
+	  <None Remove="Resources\Images\galaxy2.jpg" />
+	  <None Remove="Resources\Images\galaxy3.jpg" />
+	  <None Remove="Resources\Images\galaxy4.jpg" />
+	  <None Remove="Resources\Images\galaxy5.jpg" />
 	  <None Remove="Resources\Images\ic_card_giftcard.png" />
 	  <None Remove="Resources\Images\ic_exit_to_app.png" />
 	  <None Remove="Resources\Images\ic_history.png" />
@@ -86,6 +91,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MinhaPagina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\MauiCollectionControls.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MauiCommandControls.xaml">
