@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\einstein.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\fontello.ttf" />
+	  <None Remove="Resources\Fonts\Pacifico.ttf" />
+	  <None Remove="Resources\Images\computer.png" />
+	  <None Remove="Resources\Images\einstein.jpg" />
+	  <None Remove="Resources\Images\einstein1.jpg" />
 	  <None Remove="Resources\Images\fb_icon.jpg" />
 	  <None Remove="Resources\Images\galaxy1.jpg" />
 	  <None Remove="Resources\Images\galaxy2.jpg" />
@@ -69,6 +78,9 @@
 	  <None Remove="Resources\Images\ic_person.png" />
 	  <None Remove="Resources\Images\ic_shopping_cart.png" />
 	  <None Remove="Resources\Images\patinhas_logo.png" />
+	  <None Remove="Resources\Images\superman.gif" />
+	  <None Remove="Resources\Images\tenis.jpg" />
+	  <None Remove="Resources\Raw\demo.json" />
 	</ItemGroup>
 
 	<ItemGroup>
